@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.banner{
+    display: flex;
+    background-color: rgb(72, 140, 209);
+    padding: 10px;
+    color: white;
+}
+#userName{
+   margin-left: 1000px;
+
+}
+#container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.loginLeft{
+    width: 500px;
+    padding: 20px;
+}
+.loginRight{
+    width: 300px;
+    text-align: center;
+}
+.loginRight input,button{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.divMenu{
+    width: 20%;
+    border-right: dotted 1px;
+    padding: 2px;
+    line-height: 20px;
+}
+.divContent{
+    width: 80%;
+    padding: 10px;
+}
+.footer{background-color: #eeeeee;}
