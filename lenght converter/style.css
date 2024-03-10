@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-image: url("image3.jpg.webp");
+
+}
+
+.body-1 {
+    width: 400px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* box-shadow: 0px 0px 2px 1px #cacaca; */
+    background-color: rgb(182, 137, 47);
+    border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+    margin: 13px 0px;
+}
+
+input {
+    height: 25px;
+    text-align: center;
+}
+
+#input {
+    margin-left: 25px;
+}
+
+#inputType,
+#resultType {
+    width: 166px;
+    margin-left: 35px;
+    color: red;
+}
+
+#resultType {
+    margin-left: 12px;
+}
