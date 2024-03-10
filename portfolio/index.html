@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        body {
+            background-color: #081b29;
+            color: white;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 25px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            transition: 5s;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: aqua;
+        }
+
+        .home {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+
+        .home-content {
+            max-width: 600px;
+        }
+
+        .home-content h1 {
+            font-size: 56px;
+            font-weight: 700;
+        }
+
+        .home-content h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: aqua;
+        }
+
+        .home-content p {
+            font-size: 16px;
+        }
+
+        .home-sci {
+            position: absolute;
+            bottom: 200px;
+            width: 170px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: -50px;
+        }
+
+        .home-sci a {
+            position: relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 65px;
+            background: transparent;
+            border: 2px solid #00abf0;
+            border-radius: 50%;
+            font-size: 40px;
+            color: #00abf0;
+            text-decoration: none;
+            margin-left: 80px;
+        }
+
+        img {
+            float: right;
+            margin-top: 180px;
+            margin-right: 140px;
+            height: 400px;
+            width: 600px;
+            border-radius: 20%;
+        }
+
+
+        .home-sci a:hover {
+            background-color: red;
+        }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Santhosh.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="https://santhoshkatta5.github.io/" target="_blank">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Skils</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <img src="C:\Users\LENOVO-V15\Downloads\san.jpg">
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Santhosh Katta</h1>
+            <h3>MERN stack Developer</h3>
+            <p>MERN stack, a blend of MongoDB, Express.js, React.js, and Node.js, offers a comprehensive toolkit for web
+                development. MongoDB stores data, Express.js handles server operations, React.js crafts user interfaces,
+                and Node.js runs server-side code. </p>
+        </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://github.com/santhoshkatta5" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/santhosh-katta-9b643a262/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        </div>
+    </section>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
